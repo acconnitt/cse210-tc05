@@ -19,6 +19,6 @@ class Jumper:
             for z in self.parachute:
                 print(z)
 
-            print("   0   \n  /|\  \n  / \  ")
+            print("   0   \n  /|\  \n  / \  \n\n^^^^^^^")
         else:
-            print("   X   \n  /|\  \n  / \  ")
+            print("   X   \n  /|\  \n  / \  \n\n^^^^^^^")
