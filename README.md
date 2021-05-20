@@ -34,5 +34,7 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your names and emails here
-Mark Vagil - markvagil@byui.edu
+
+- Mark Vagil - markvagil@byui.edu
+- Benjamin
+- Alex
