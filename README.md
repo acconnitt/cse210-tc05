@@ -36,5 +36,5 @@ root                    (project root folder)
 ---
 
 - Mark Vagil - markvagil@byui.edu
-- Benjamin
+- Benjamin - Benjamin.ja.lebeau@gmail.com
 - Alex
