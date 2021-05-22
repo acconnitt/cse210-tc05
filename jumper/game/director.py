@@ -38,11 +38,12 @@ class Director:
                     self.keep_playing = False  # Change keep.playing to false = finished the game
             else:
                 # If the guess letter matches a letter in the word
-                self.word.replace_blank(self.guess) # Call replace_blank method from Word Class
+                # Call replace_blank method from Word Class
+                self.word.replace_blank(self.guess)
                 if self.word.check_blanks() == False:  # Call check_blanks funtion to see if it is true or false
                     self.output.print_blanks(self.word)
-                    self.output.print_win()# Call print_win from Output Class
-                    self.keep_playing = False # Change keep playing to false to end game
+                    self.output.print_win()  # Call print_win from Output Class
+                    self.keep_playing = False  # Change keep playing to false to end game
 
     def get_letter(self):
         self.guess = input("Guess a letter [a-z]: ")  # Get a letter from user
