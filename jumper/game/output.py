@@ -11,3 +11,4 @@ class Output:
 
     def print_loss(self):
         print("Sorry, you hit the ground a little too hard!")#Print when user lose after 4 tries
+        
